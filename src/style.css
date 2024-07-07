@@ -1,0 +1,26 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Anton+SC&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+
+
+
+body, html {
+  margin: 0;
+  padding: 0;
+}
+
+.shadow-glow {
+  box-shadow: 0 0 10px 5px rgba(108, 237, 255, 0.5); /* Adjust the color and size as needed */
+}
+
+.shadow-glow:hover {
+  /* bold the text on hover */
+  
+  box-shadow: 0 0 10px 5px rgba(108, 237, 255, 1); /* Adjust the color and size as needed */
+}
