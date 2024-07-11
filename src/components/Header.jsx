@@ -8,7 +8,7 @@ export const Header = () => {
       <Link className="flex items-center gap-2  hover:underline underline-offset-4 no-underline" to="/">
         <img src="  src\assets\main-logo.png" alt="Logo.img" className='w-10'/>
 
-        <span className="text-lg font-extrabold text-white font-sans ">DORTEX AI</span>
+        <span className="text-lg font-extrabold text-white font-sans ">Khushal Grover</span>
       </Link>
       <nav className="hidden md:flex items-center gap-4">
         <NavLink to="/features">Home</NavLink>
