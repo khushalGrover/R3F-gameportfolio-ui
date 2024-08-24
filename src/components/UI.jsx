@@ -89,7 +89,7 @@ export const UI = () => {
       <div className="fixed inset-0 flex items-center -rotate-2 select-none">
         <div className="relative font-rubic">
           <div className="bg-white/0  animate-horizontal-scroll flex items-center gap-8 w-max px-8">
-            <h1 className="shrink-0 text-git text-10xl font-black ">
+            <h1 className="shrink-0 text-white text-10xl font-black ">
               Khushal Grover
             </h1>
             <h2 className="shrink-0 text-white text-8xl italic font-light">
