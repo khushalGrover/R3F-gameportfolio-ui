@@ -11,7 +11,7 @@ export const EnvironmentCanvas = () => {
 			{/* <OrbitControls enableZoom={false} /> */}
 			<ScrollControls pages={5.8} damping={0.1}>
 				<Overlay />
-				<Prototype3 />
+				{/* <Prototype3 /> */}
 			</ScrollControls>	
 		</Canvas>
 	);
