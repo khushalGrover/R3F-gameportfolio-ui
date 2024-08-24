@@ -4,6 +4,10 @@ export default {
   theme: {
     fontFamily: {
       sans: ["Poppins", "sans-serif"],
+      xtreem: ["Xtreem", "sans-serif"],
+      flora: ["Flora", "sans-serif"],
+      rubik: ["Rubik", "sans-serif"],
+      bancoStd: ["BancoStd", "sans-serif"],
     },
     extend: {
       fontSize: {
