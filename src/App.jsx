@@ -1,15 +1,23 @@
+import { Loader } from "@react-three/drei";
+import { Canvas } from "@react-three/fiber";
+import { Suspense } from "react";
+import { Experience } from "./components/Experience";
+import { UI } from "./components/UI";
 
-import { EnvironmentCanvas } from "./components/canvas/EnvironmentCanvas";
-import { Header } from "./components/Header";
 function App() {
-	return (
-		<div className="relative">
-			<Header className='hide'/>
-			<div className="fixed flex flex-col h-full w-full">
-				<EnvironmentCanvas />
-			</div>
-		</div>
-	);
+  return (
+    <>
+      <Loader />
+      <UI />
+      <Canvas shadows camera={{ position: [-0.5, 1, 4], fov: 45 }}>
+        <group position-y={0}>
+          <Suspense fallback={null}>
+            <Experience />
+          </Suspense>
+        </group>
+      </Canvas>
+    </>
+  );
 }
 
 export default App;
