@@ -7,19 +7,19 @@
 
 @font-face {
   font-family: 'Xtreem';
-  src: url('../public/fonts/XtreemMedium_PERSONAL_USE.ttf') format('truetype');
+  src: url('../fonts/XtreemMedium_PERSONAL_USE.ttf') format('truetype');
   font-weight: bold;
   font-style: normal;
 }
 @font-face {
   font-family: 'Flora';
-  src: url('../public/fonts/Flora.otf') format('opentype');
+  src: url('../fonts/Flora.otf') format('opentype');
   font-weight: normal;
   font-style: normal;
 }
 @font-face {
   font-family: 'BancoStd';
-  src: url('../public/fonts/BancoStd.otf') format('opentype');
+  src: url('../fonts/BancoStd.otf') format('opentype');
   font-weight: normal;
   font-style: normal;
 }

@@ -2,10 +2,10 @@ import { atom, useAtom } from "jotai";
 import { useEffect } from "react";
 
 const pictures = [
+  "Artboard1.2B",
+  "Artboard1.2",
   "DSC00680",
   "DSC00933",
-  "DSC00966",
-  "DSC00983",
   "DSC01011",
   "DSC01040",
   "DSC01064",
@@ -62,7 +62,7 @@ export const UI = () => {
             {[...pages].map((_, index) => (
               <button
                 key={index}
-                className={` border-transparent hover:border-white transition-all duration-300  px-4 py-3 rounded-full  text-lg uppercase shrink-0 border ${
+                className={`border-transparent hover:border-white transition-all duration-300  px-4 py-3 rounded-full text-lg uppercase shrink-0 border ${
                   index === page
                     ? "bg-white/90 text-black"
                     : "bg-black/30 text-white"
