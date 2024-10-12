@@ -3,7 +3,7 @@ import react from '@vitejs/plugin-react'
 
 // https://vitejs.dev/config/
 export default defineConfig({
-  base: 'R3F-gameportfolio-ui',
+  base: process.env.GITHUB_PAGES ? '/R3F-gameportfolio-ui/' : '/',
   plugins: [react()],
   server: {
     host: true
